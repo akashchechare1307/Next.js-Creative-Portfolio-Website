@@ -19,7 +19,7 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
+    name: "4-Bit ALU Design using Verilog HDL",
     description: "Track your carbon footprint",
     date: "2022-08-15",
     demoLink: "https://ecotracker.example.com",
@@ -96,13 +96,13 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://www.github.com/akashchechare130727",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/akashchechare1307",
     icon: "linkedin",
     newTab: true,
   },
