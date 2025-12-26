@@ -1,17 +1,19 @@
 /*
 Websites:
 
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
+- https://github.com/pmdrs/gltfjsx (GLTF JSX for 3D Models)
 - https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
+- https://github.com/anuraghazra/github-readme-stats (GitHub Readme Stats)
 - https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
+- https://github.com-readme-streak-stats.herokuapp.com (GitHub Readme Streak Stats)
+
+*/
 
 :root {
   --background: 27 27 27;
   --foreground: 225 225 225;
   --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
+  --accent: 254 254 91; #FFFFB5
 }
 
 */
@@ -20,104 +22,115 @@ export const projectsData = [
   {
     id: 1,
     name: "4-Bit ALU Design using Verilog HDL",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    description: "Implemented a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL for digital design applications. This project demonstrates RTL design principles with support for multiple arithmetic and logic operations.",
+    image: "/project1.jpg",
+    date: "2024-09-15",
+    demoLink: "https://github.com/akashchechare1307",
+    githubLink: "https://github.com/akashchechare1307",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "CMOS Inverter Design and Analysis",
+    description: "Designed and simulated a CMOS inverter circuit using SPICE. Analyzed voltage-transfer characteristics, noise margins, and power consumption. Optimized for performance and energy efficiency in VLSI applications.",
+    image: "/project2.jpg",
+    date: "2024-08-20",
+    demoLink: "https://github.com/akashchechare1307",
+    githubLink: "https://github.com/akashchechare1307",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
-  },
-  {
-    id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
-  {
-    id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
-  },
-  {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "VLSI Design Fundamentals",
+    description: "Comprehensive study of VLSI design methodologies including circuit design, layout, simulation, and verification. Proficient in Verilog HDL for both behavioral and structural modeling.",
+    image: "/project3.jpg",
+    date: "2024-07-10",
+    demoLink: "https://github.com/akashchechare1307",
+    githubLink: "https://github.com/akashchechare1307",
   },
 ];
 
-export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+export const skillsData = [
   {
-    label: "Github",
-    link: "https://www.github.com/akashchechare130727",
+    name: "Verilog HDL",
+    icon: "code",
+  },
+  {
+    name: "RTL Design",
+    icon: "cpu",
+  },
+  {
+    name: "VLSI Design",
+    icon: "zap",
+  },
+  {
+    name: "Circuit Simulation",
+    icon: "activity",
+  },
+  {
+    name: "SystemVerilog",
+    icon: "layers",
+  },
+  {
+    name: "Analog Circuit Design",
+    icon: "wave",
+  },
+  {
+    name: "Digital Logic Design",
+    icon: "grid",
+  },
+  {
+    name: "C++",
+    icon: "square",
+  },
+  {
+    name: "Python",
+    icon: "circle",
+  },
+];
+
+export const socialLinks = [
+  {
+    label: "GitHub",
+    link: "https://github.com/akashchechare1307",
     icon: "github",
-    newTab: true,
+    newtab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/akashchechare1307",
+    link: "https://www.linkedin.com/in/akash-chechare-40580b288/",
     icon: "linkedin",
-    newTab: true,
+    newtab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://twitter.com/akashchechare",
     icon: "twitter",
-    newTab: true,
+    newtab: true,
   },
   {
     label: "Resume",
     link: "/resume.pdf",
     icon: "resume",
-    newTab: true,
+    newtab: true,
   },
 ];
 
+export const navLinks = [
+  {
+    label: "Home",
+  },
+  {
+    label: "About",
+  },
+  {
+    label: "Projects",
+  },
+  {
+    label: "Contact",
+  },
+];
 
+export const footerData = {
+  name: "Akash Chechare",
+  designation: "VLSI & Semiconductor Engineer",
+  year: new Date().getFullYear(),
+};
